@@ -1,0 +1,119 @@
+.custom-bg {
+    background-color: #000000d3;
+}
+
+.body {
+    font-family: arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.calculadora {
+    width: max-content;
+    height: max-content;
+    margin: 50px auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+    background-color: #56c3ee;
+}
+
+.pantalla {
+    width: 100%;
+    text-align: start;
+    padding: 10px;
+    font-size: 1.5em;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.botones {
+    display: flex;
+}
+
+.col-sm {
+    flex: 1;
+    padding: 10px;
+    background-color: #d70ee9;
+    /*text-align: center;*/
+    border: 1px solid #ccc;
+}
+
+.numeros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    font-size: 1.5em;
+    margin: 8px;
+}
+
+.numeros button {
+    margin: 5px;
+    font-size: 1em;
+    transition: background-color 0.2s ease;
+}
+
+.operadores {
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    gap: 10px;
+    font-size: 1.5em;
+    margin: 10px;
+    margin-bottom: 5%;
+}
+
+.operadores button {
+    margin: 10px;
+    font-size: 1em;
+    transition: background-color 0.2s ease;
+    width: 45px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.col-dm {
+    flex: 1;
+    padding: 5px;
+    background-color: #087deb;
+    /*text-align: center;*/
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.operadores button:hover {
+    background-color: #d70ee9;
+}
+
+.numeros button:hover {
+    background-color: rgb(14, 107, 228);
+}
+
+.calcular button {
+    flex: 1;
+    width: 110px;
+    background-color: #e6a34b;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+/*.operadores button, 
+.numeros button {
+    width: 70%;
+    height: 70px;
+    font-size: 1.5em;
+    margin: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}*/
